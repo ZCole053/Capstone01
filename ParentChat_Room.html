@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<!--
+Relationship Builder
+
+ParentChat_Room
+This is the HTML for the
+chat room for the parents.
+
+Author: Zedekiah Cole 
+Date:  7/13/18
+
+Filename: ParentChat_Room.html
+-->
+        <meta charset="utf-8" />
+        <title>Parent Chat Room</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="ChatRoom.css">
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('button').click(function(){
+                    var message = $('textarea').val();
+                    var old = $('#content').html();
+
+                    $("#content").html(old +'<P>'+ message + '</p>');
+                });
+            });
+        </script>
+
+    </head>
+    <body>
+            <a href="index.html"><button>Back</button></a> 
+        <h1>Parent chat</h1>
+        <div id="content">
+            <p>This is the chat data.</p>
+        </div>
+
+        <div id="message">
+            <textarea name="" id="" cols="34" rows="2">Leave a comment</textarea>
+            <button>post</button>
+        </div>
+    </body>
+</html>

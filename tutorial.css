@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/* 
+Relationship Builder css
+This builds the css styles for
+the Tutorial page.
+I split them to make styling easier.
+
+Author: Zedekiah Cole 
+Date:  7/13/18
+
+Filename: index.html
+*/
+
+
+/* Html styles */
+html{
+    background-color: rgb(86, 194, 245);
+}

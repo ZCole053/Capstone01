@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+/* Relationship Builder
+
+chatRoom styles
+This sets the styles for 
+the chat room.
+
+Author: Zedekiah Cole 
+Date:  7/31/18
+
+Filename: ChatRoom.css  */
+
+
+
+/* Basic styles to be used with all devices and under all conditions */
+
+article, aside, figcaption, figure,
+footer, header, main, nav, section {
+   display: block;
+}
+
+address, article, aside, blockquote, body, cite,
+div, dl, dt, dd, em, figcaption, figure, footer,
+h1, h2, h3, h4, h5, h6, header, html, img,
+li, main, nav, nav a, ol, p, section, span, ul,
+table, tr, td, th, col, colgroup {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   background: transparent;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+
+/* Set the default page element styles */
+
+body {
+   line-height: 1em;
+   background-color: #f2f2f2;
+}
+
+ul, ol {
+   list-style: none;
+}
+
+nav ul {
+   list-style: none;
+   list-style-image: none;
+}
+
+nav a {
+   text-decoration: none;
+}
+
+q {
+   font-style: italic;
+   quotes: none;
+}
+
+#content{
+    border: 1px solid #A9F5A9;
+    background: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+    overflow: auto;
+    border-radius:3px;
+}
+
+#content p{
+    padding: 1em;
+    margin: 1em;
+    background-color: #E6E6E6;
+    border: 1px solid #BDBDBD;
+    border-radius:4px;
+}
+
+h1{
+    color: #01DF3A;
+    margin-top:90px;
+    text-align: center;
+    padding: 1em;
+    font-size: 31px;
+}
+
+#message{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    overflow: auto;
+    padding: 0 0 0 3px;
+    color: #000000;
+}
+
+#message button{
+    margin: 1em 0 0 0;
+}
+
+button{
+    border: none;
+    padding: 6px;
+    text-decoration: none;
+    border-radius: 4px;
+    background: #2EFE64;
+    color: white;
+    box-shadow: 0 1px 0 white;
+    cursor: pointer;
+}
