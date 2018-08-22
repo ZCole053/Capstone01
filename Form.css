@@ -1,0 +1,75 @@
+/*
+    Relationship Builder
+
+Form.css
+This is the css for the form
+
+Author: Zedekiah Cole 
+Date:  8/22/18
+
+Filename: Form.css 
+*/
+
+
+/* html styles */
+
+
+
+html {
+    background-color: rgb(86, 194, 245);
+}
+
+
+/* Heading styles */
+
+h1 {
+    height: 5em;
+    text-align: center;
+}
+
+#logo {
+    height: 3em;
+}
+
+/* nav bar styles */
+
+ul {
+    list-style: none;
+    text-align: center;
+    background-color: rgb(96, 143, 245);
+}
+
+li {
+    display: inline-block;
+    padding: 10px 50px 10px 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(25, 0, 252);
+}
+
+div.test input{
+    
+    float: left;
+}
+
+/* div */
+div.straightDiv{
+    display: inline-block;
+    text-align: center;
+}
+
+/* article{
+    background-color: aquamarine;
+} */
+
+/* fieldset styles */
+fieldset{
+    background-color:cornflowerblue;
+    border: 0;
+}
