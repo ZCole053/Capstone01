@@ -1,13 +1,13 @@
 /*
     Relationship Builder
 
-Form.css
-This is the css for the form
+Donate.css
+This is the css for the donate page
 
 Author: Zedekiah Cole 
-Date:  8/22/18
+Date:  8/23/18
 
-Filename: Form.css 
+Filename: Donate.css 
 */
 
 
@@ -29,7 +29,6 @@ h1 {
 }
 
 /* nav bar styles */
-
 ul {
     list-style: none;
     text-align: center;
@@ -50,23 +49,8 @@ a:hover {
     color: rgb(25, 0, 252);
 }
 
-div.test input{
-    
-    float: left;
-}
-
-/* div */
-div.straightDiv{
-    display: inline-block;
-    text-align: center;
-}
-
-/* article{
-    background-color: aquamarine;
-} */
-
 /* fieldset styles */
 fieldset{
-    background-color:cornflowerblue;
+    background-color:rgba(109, 235, 186, 45%);
     border: 0;
 }
