@@ -45,15 +45,21 @@ Filename: Form.html
             </li>
         </ul>
     </nav>
-    <p>Please enter the following information.</p>
+    <h2><p>Please enter the following information.</p></h2>
     <article>
         <div class="straightDiv">
             <form action="calander.html" novalidate="novalidate">
-                <fieldset>
-                    <legend>
-
-                    </legend>
+                <fieldset id="kidRight">
+                    <legend>Kids info.</legend>
+                    <label for="kidsName">First Name</label>
+                    <input id="kidsName" name="age" type="text" required="required" />
+                    <br>
+                    <label for="kidsLast">Last Name</label>
+                    <input id="kidsLast" name="age" type="text" required="required" />
+                    <br>
+                    <br>
                     <span>Select the days you are avaliable?</span>
+                    <br>
                     <br>
                     <input type="checkbox" id="monday" name="pickDay" value="Mon">
                     <label for="monday" class="test">Monday</label>
@@ -70,8 +76,9 @@ Filename: Form.html
                     <input type="checkbox" id="sunday" name="pickDay" value="sun">
                     <label for="sunday">Sunday</label>
                     <br>
-                    <label for="">How old is the kid?</label>
-                    <select name="" id="">What is the age of your child?
+                    <br>
+                    <label for="kidAge">How old is the kid?</label>
+                    <select name="kidAge" id="listNum">
                         <option value="1">1</option>
                         <option value="5">2</option>
                         <option value="5">3</option>
@@ -93,13 +100,64 @@ Filename: Form.html
                         <option value="5">20</option>
                         <option value="5">21</option>
                     </select>
-                    <label for="">kid's first name</label>
-
+                    <br>
+                    <br>
+                    <label for="perWeek">How long do you have per week to spend with your kid?</label>
+                    <input id="perWeek" name="hours" type="number" required="required" />
+                    <br>
+                    <br>
+                    <label for="">Which does your kid liek to do most:</label>
+                    <input id="outdoors" name="optionOut" type="radio" value="AmEx" />
+                    <label for="outdoors">Outdoors</label>
+                    <input id="indoors" name="optionIn" type="radio" value="AmEx" />
+                    <label for="indoors">Indoors</label>
+                </fieldset>
+                <fieldset id="ParerntLeft">
+                        <legend>Parernt info.</legend>
+                        <label for="kidsName">First Name</label>
+                        <input id="kidsName" name="age" type="text" required="required" />
+                        <br>
+                        <label for="kidsLast">Last Name</label>
+                        <input id="kidsLast" name="age" type="text" required="required" />
+                        <br>
+                        <br>
+                        <span>Select the days you are avaliable?</span>
+                        <br>
+                        <br>
+                        <input type="checkbox" id="monday" name="pickDay" value="Mon">
+                        <label for="monday" class="test">Monday</label>
+                        <input type="checkbox" id="tuesday" name="pickDay" value="tue">
+                        <label for="tuesday">Tuesday</label>
+                        <input type="checkbox" id="wednesday" name="pickDay" value="wed">
+                        <label for="wednesday">Wednesday</label>
+                        <input type="checkbox" id="thursday" name="pickDay" value="thur">
+                        <label for="thursday">Thursday</label>
+                        <input type="checkbox" id="friday" name="pickDay" value="fri">
+                        <label for="friday">Friday</label>
+                        <input type="checkbox" id="saturday" name="pickDay" value="sat">
+                        <label for="saturday">Saturday</label>
+                        <input type="checkbox" id="sunday" name="pickDay" value="sun">
+                        <label for="sunday">Sunday</label>
+                        <br>
+                        <br>
+                        <label for="parentAge">How old is the parent?</label>
+                        <input id="parentAge" name="pAge" type="number" required="required" />
+                        <br>
+                        <br>
+                        <label for="perWeek">How many hours do you have per week to spend with your parents?</label>
+                        <input id="perWeek" name="hours" type="number" required="required" />
+                        <br>
+                        <br>
+                        <label for="">Which does your Parernt like to do most:</label>
+                        <input id="outdoors" name="optionOut" type="radio" value="AmEx" />
+                        <label for="outdoors">Outdoors</label>
+                        <input id="indoors" name="optionIn" type="radio" value="AmEx" />
+                        <label for="indoors">Indoors</label>
                 </fieldset>
         </div>
     </article>
     <div id="button">
-        <input type="submit" value="submit" id="submitButton">
+        <input type="submit" value="Finished" id="submitButton">
     </div>
     </form>
 </body>
