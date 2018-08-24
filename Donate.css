@@ -53,4 +53,27 @@ a:hover {
 fieldset{
     background-color:rgba(109, 235, 186, 45%);
     border: 0;
+    margin: 5px;
 }
+
+#donationInfo{
+    float: left;
+}
+
+#donateCard{
+    float: right;
+}
+
+/* input styles */
+input{
+    margin: 5px;
+}
+
+#streetAddress{
+    width: 20em;
+}
+
+#city{
+    width: 15em;
+}
+
